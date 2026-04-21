@@ -4,7 +4,7 @@
 
 ## Dataset
 
-[Music Dataset: Lyrics and Metadata 1950–2019](https://www.kaggle.com/datasets/saurabhshahane/music-dataset-1950-to-2019) — 28,372 songs with full lyrics, metadata (artist, genre, release year), and Spotify audio features including a `valence` score (continuous 0–1 measure of musical positivity). We binarize `valence` at 0.5 to create `valence_label` (0 = low/sad, 1 = high/happy) for binary classification.
+[Music Dataset: Lyrics and Metadata 1950–2019](https://data.mendeley.com/datasets/3t9vbwxgr5/2) — 28,372 songs with full lyrics, metadata (artist, genre, release year), and Spotify audio features including a `valence` score (continuous 0–1 measure of musical positivity). We binarize `valence` at 0.5 to create `valence_label` (0 = low/sad, 1 = high/happy) for binary classification.
 
 ## Models
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 python -m nltk.downloader stopwords
 ```
 
-3. Download the dataset from Kaggle and place the CSV at:
+3. Download the dataset from [here](https://data.mendeley.com/datasets/3t9vbwxgr5/2) and place the CSV at:
    ```
    data/tcc_ceds_music.csv
    ```
