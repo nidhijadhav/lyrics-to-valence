@@ -1,0 +1,17 @@
+# raw dataset (too large for git)
+Music Dataset*/
+
+# generated data files
+data/*.csv
+data/*.png
+
+# python
+venv/
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# os
+.DS_Store
