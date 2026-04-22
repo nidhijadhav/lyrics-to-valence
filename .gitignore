@@ -3,7 +3,6 @@ Music Dataset*/
 
 # generated data files
 data/*.csv
-data/*.png
 
 # python
 venv/
